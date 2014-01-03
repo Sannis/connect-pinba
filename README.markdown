@@ -41,7 +41,22 @@ You can install this module via [npm]:
 Usage
 -----
 
-TBD
+This middleware must be on the first called.
+
+```js
+var connect_pinba = require('connect-pinba');
+var connect = require('connect');
+var server = connect.createServer(
+  connect_pinba({server_name: "example.com", pinba_server: "pinbadb.vlan"}),
+  function(req, res) {
+      res.writeHead(200, { 'Content-Type': 'text/plain' });
+      res.end('Hello World');
+  }
+).listen(3000);
+```
+
+`connect_pinba` take only one parameter, a hash that will be passed to `Pinba.Request` constructor.
+See node-pinba docs for detailed information.
 
 
 Contributing
