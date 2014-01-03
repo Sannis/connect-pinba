@@ -47,7 +47,11 @@ This middleware must be on the first called.
 var connect_pinba = require('connect-pinba');
 var connect = require('connect');
 var server = connect.createServer(
-  connect_pinba({server_name: "example.com", pinba_server: "pinbadb.vlan"}),
+  connect_pinba({
+    schema:       'http',
+    server_name:  'example.com',
+    pinba_server: 'pinbadb.vlan'
+  }),
   function(req, res) {
       res.writeHead(200, { 'Content-Type': 'text/plain' });
       res.end('Hello World');

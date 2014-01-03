@@ -24,8 +24,9 @@
 , "dependencies" :
   { "pinba"  : "~1.0.0-beta1" }
 , "devDependencies" :
-  { "mocha"  : "~1.16.2"
-  , "jshint" : "~2.4.1"
-  , "ndoc"   : "~3.1.0"
+  { "mocha"   : "~1.16.2"
+  , "connect" : "~2.12.0"
+  , "jshint"  : "~2.4.1"
+  , "ndoc"    : "~3.1.0"
   }
 }
