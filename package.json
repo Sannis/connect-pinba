@@ -2,7 +2,7 @@
 , "description" : "Pinba middleware for Connect"
 , "keywords" : ["pinba", "monitoring", "profiling", "connect", "middleware"]
 , "homepage" : "http://sannis.github.com/connect-pinba"
-, "version" : "0.0.0"
+, "version" : "1.0.0-beta1"
 , "author" :
   { "name" : "Oleg Efimov"
   , "email" : "efimovov@gmail.com"
