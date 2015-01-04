@@ -24,12 +24,12 @@ test: npm-install
 lint: npm-install
 		./node_modules/.bin/jshint . --show-non-errors
 
-doc: ./lib/index.js
-		rm -rf ${API_DEST_DIR}
-		./node_modules/.bin/ndoc \
-		  --gh-ribbon ${GITHUB_PROJECT_URL} \
-		  --link-format ${API_SRC_URL_FMT} \
-		  --output ${API_DEST_DIR} \
-		  ./lib/index.js
+#doc: ./lib/index.js
+#		rm -rf ${API_DEST_DIR}
+#		./node_modules/.bin/ndoc \
+#		  --gh-ribbon ${GITHUB_PROJECT_URL} \
+#		  --link-format ${API_SRC_URL_FMT} \
+#		  --output ${API_DEST_DIR} \
+#		  ./lib/index.js
 
-.PHONY: all npm-install clean test lint doc
+.PHONY: all npm-install clean test lint #doc
