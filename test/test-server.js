@@ -1,8 +1,6 @@
 /*!
  * Copyright by Oleg Efimov
- * and other node-pinba contributors
- *
- * See contributors list in README
+ * and other connect-pinba contributors
  *
  * See license text in LICENSE file
  */
