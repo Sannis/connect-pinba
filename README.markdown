@@ -1,7 +1,14 @@
 Connect-pinba
 =============
 
-[![NPM version][NPM version image]][NPM version URL] [![Build status][Build status image]][Build status URL]
+[![NPM version][NPMVI]][NPMVURL] [![BS][BSI]][BSURL] [![CS][CSI]][CSURL]
+
+[NPMVI]: https://badge.fury.io/js/connect-pinba.png
+[NPMVURL]: http://badge.fury.io/js/connect-pinba
+[BSI]: https://secure.travis-ci.org/Sannis/connect-pinba.png?branch=master
+[BSURL]: http://travis-ci.org/Sannis/connect-pinba
+[CSI]: https://coveralls.io/repos/Sannis/connect-pinba/badge.png
+[CSURL]: https://coveralls.io/r/Sannis/connect-pinba
 
 -----
 
@@ -11,19 +18,12 @@ Pinba is a MySQL storage engine that acts as a realtime monitoring/statistics se
 using MySQL as a read-only interface.
 Connect-pinba brings data automatic statistics sending to Pinba server from your node.js application.
 
-**This module has been tested with Node.js versions 0.8.26, 0.10.22 and 0.11.9.**
-
 Check out the [Github repo] for the source code.
 
 [Pinba]: http://pinba.org/
 [Connect]: https://github.com/senchalabs/connect
 [node.js]: http://nodejs.org/
 [node-pinba]: https://github.com/Sannis/node-pinba
-
-[NPM version image]: https://badge.fury.io/js/connect-pinba.png
-[NPM version URL]: http://badge.fury.io/js/connect-pinba
-[Build status image]: https://secure.travis-ci.org/Sannis/connect-pinba.png?branch=master
-[Build status URL]: http://travis-ci.org/Sannis/connect-pinba
 
 [Github repo]: https://github.com/Sannis/connect-pinba
 
@@ -74,7 +74,3 @@ License
 -------
 
 MIT license. See license text in file [LICENSE](https://github.com/Sannis/connect-pinba/blob/master/LICENSE).
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Sannis/connect-pinba/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
